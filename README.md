@@ -8,9 +8,9 @@ https://ausygdp.udemy.com/organization/home/
 ## Agenda
 
 ### 1. Linux
-## 1.a The Linux Command Line Bootcamp: Beginner To Power User
+#### 1.a The Linux Command Line Bootcamp: Beginner To Power User
   https://ausygdp.udemy.com/course/the-linux-command-line-bootcamp/ 
-## 1.b Connecting to virtual machine using ssh with vs code 
+#### 1.b Connecting to virtual machine using ssh with vs code 
   https://www.simplified.guide/virtualbox/port-forwarding
   https://code.visualstudio.com/docs/remote/ssh
   
