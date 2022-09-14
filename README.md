@@ -46,5 +46,8 @@ The Git & Github Bootcamp: https://ausygdp.udemy.com/course/git-and-github-bootc
   - Test 
 
 ### 5. Scripting
+
+regular expression
+
 TBD
 
