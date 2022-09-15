@@ -7,20 +7,24 @@ https://ausygdp.udemy.com/organization/home/
 
 ## Agenda
 
-### 1. Linux - 2 weeks
+### 1. Linux - 1 weeks
 #### 1.a The Linux Command Line Bootcamp: Beginner To Power User
   https://ausygdp.udemy.com/course/the-linux-command-line-bootcamp/ 
 #### 1.b Connecting to virtual machine using ssh with vs code 
   https://www.simplified.guide/virtualbox/port-forwarding
   https://code.visualstudio.com/docs/remote/ssh
-#### 1.c Linux scripting
-  TBD
-  
+
 ### 2. Git  - 1 week
 
 Udemy:
 The Git & Github Bootcamp: https://ausygdp.udemy.com/course/git-and-github-bootcamp/
 + Live training sessions and hands on
+
+
+
+### 1.c Linux scripting - 1 Week
+  TBD
+  
 
 ### 3. C++ training - 4 weeks
   - OOP ( Basic Object-oriented Programming, Inheritance, Overloading, Polymorphism, Abstraction, Encapsulation, Virtual Functions, Interfaces, Operator overloading,   -Object Relationships etc ) 
