@@ -22,11 +22,11 @@ The Git & Github Bootcamp: https://ausygdp.udemy.com/course/git-and-github-bootc
 
 
 
-### 1.c Linux scripting - 1 Week
+### 3. Linux scripting - 1 Week
   TBD
   
 
-### 3. C++ training - 4 weeks
+### 4. C++ training - 4 weeks
   - OOP ( Basic Object-oriented Programming, Inheritance, Overloading, Polymorphism, Abstraction, Encapsulation, Virtual Functions, Interfaces, Operator overloading,   -Object Relationships etc ) 
   - C++11 specifics  - new keywords, std::atomic, unordered containers, move semantics, std::mutex, lambda function, smart pointers, rvalue references
   - Move Semantics and Smart Pointers
@@ -43,7 +43,7 @@ The Git & Github Bootcamp: https://ausygdp.udemy.com/course/git-and-github-bootc
 #### Docs:
   - https://www.learncpp.com 
 
-### 4. Boost training - 2 weeks
+### 5. Boost training - 2 weeks
   - Memory management
   - Data Structures
   - Parallel Programming
@@ -51,7 +51,7 @@ The Git & Github Bootcamp: https://ausygdp.udemy.com/course/git-and-github-bootc
   - Serialization 
   - Test 
 
-### 5. Scripting - 2 weeks
+### 6. Scripting - 2 weeks
   - python
   - regular expression
   - ruby(?)
