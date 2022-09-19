@@ -1,0 +1,5 @@
+name: Mitu Marian
+age: 22
+gender: M
+country: Romania
+city: Sibiu
