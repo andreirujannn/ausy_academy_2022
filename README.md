@@ -23,7 +23,9 @@ The Git & Github Bootcamp: https://ausygdp.udemy.com/course/git-and-github-bootc
 
 
 ### 3. Linux scripting - 1 Week
-  TBD
+  https://ausygdp.udemy.com/course/bash-shell-scripting-crash-course-for-beginners/learn/lecture/9581118 - 1 day
+  
+  scripting task - 4 days
   
 
 ### 4. C++ training - 4 weeks
