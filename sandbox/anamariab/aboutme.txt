@@ -1,0 +1,6 @@
+name: Baciu Ana Maria
+age: 21
+gender: F
+country: Romania
+city: Campulung Muscel
+
