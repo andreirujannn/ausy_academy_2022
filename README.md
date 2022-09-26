@@ -20,6 +20,8 @@ Udemy:
 The Git & Github Bootcamp: https://ausygdp.udemy.com/course/git-and-github-bootcamp/
 + Live training sessions and hands on
 
+Useful:
+https://github.com/gitalias/gitalias
 
 
 ### 3. Linux scripting - 1 Week
