@@ -25,9 +25,10 @@ https://github.com/gitalias/gitalias
 
 
 ### 3. Linux scripting - 1 Week
-  https://ausygdp.udemy.com/course/bash-shell-scripting-crash-course-for-beginners/learn/lecture/9581118 - 1 day
+  https://ausygdp.udemy.com/course/bash-shell-scripting-crash-course-for-beginners/learn/lecture/9581118 - 2 days
   
-  scripting task - 4 days
+  scripting task - 3 days  
+  [Task 1 - Linux scripting](Tasks/Task1_linux_scripting.md)
   
 
 ### 4. C++ training - 4 weeks
