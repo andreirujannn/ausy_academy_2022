@@ -23,7 +23,7 @@ Note: $MY_NAME is not hardcoded in the script, it has to be created manually fro
 # Bonus #1
 1. read the new branch name from command line argument
 2. write branch name to gitMessage7 
-3. Instead of directly reading the commit message from gitmessage5(from step 8) go over them with a for loop and check if they are empty. If a file is not empty, add the message to the commit message. 
+3. Instead of directly reading the commit message from gitmessage5(from step 8) go over them with a for loop and check if they are empty. If a file is not empty, add the message to the commit message, separating them with ';' (eg. "$MY_NAME : my first script;branch_name")
 
 # Bonus #2
 1. Write the same functionality without using for or if statements.
