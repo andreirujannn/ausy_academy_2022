@@ -19,3 +19,12 @@ Note: $MY_NAME is not hardcoded in the script, it has to be created manually fro
 # After the script is implemented:
 1. Manually commit and push the script to <ausy_academy_2022>/<your_name>/Task1_scripting/
 2. Create a Pull request
+
+# Bonus #1
+1. read the new branch name from command line argument
+2. write branch name to gitMessage7 
+3. Instead of directly reading the commit message from gitmessage5(from step 8) go over them with a for loop and check if they are empty. If a file is not empty, add the message to the commit message. 
+
+# Bonus #2
+1. Write the same functionality without using for or if statements.
+2. Add command line argument to switch between the two implementations
