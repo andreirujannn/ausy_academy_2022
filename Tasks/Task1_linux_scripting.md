@@ -15,6 +15,7 @@ Note: $MY_NAME is not hardcoded in the script, it has to be created manually fro
 10. Search for file with log message ( from step 8) read the message from that file and create a new commit with your message
 11. Push the commit to your branch
 12. Once you pushed the file discard all other changes that where made. (from step 7)
+13. Manually create a pull request
 # After the script is implemented:
 1. Manually commit and push the script to <ausy_academy_2022>/<your_name>/Task1_scripting/
 2. Create a Pull request
