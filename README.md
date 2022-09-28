@@ -1,10 +1,5 @@
 # Ausy academy 2022
 
-## Udemy account
-cristian.vlad@ausy.com / Ausy2021? 
-
-https://ausygdp.udemy.com/organization/home/
-
 ## Agenda
 
 ### 1. Linux - 1 weeks
