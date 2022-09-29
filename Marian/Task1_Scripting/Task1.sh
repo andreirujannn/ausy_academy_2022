@@ -1,16 +1,18 @@
 #! /bin/bash
 #FIRT TASK!!!
 
+firstImplementation(){
 #*** 1-3 ***
 repoPath="/home/projectx/Desktop/gitBasics/ausy_academy_2022"
 cd $repoPath
 cd "sandbox"
 cd "mmitu"
-#pwd
 
 #*** 4-5 ***
-git branch Mitu_Script1
-git switch Mitu_Script1
+# $1 = primul argument
+newBranchName=$1
+git branch $newBranchName
+git switch $newBranchName
 
 #*** 6 ***
 touch "$MY_NAME.txt"
@@ -22,21 +24,26 @@ do
     if [ $i == 5 ];then
         echo "$MY_NAME : my first script" > gitMessage$i
     fi
+    if [ $i == 7 ];then
+        echo "$newBranchName" > gitMessage$i
+    fi
 done
 
 #*** 9 ***
 git add $MY_NAME.txt
 
 #*** 10 ***
-for i in ./*
+for i in ./*gitMessage*
 do
-    message=$(cat $i)
-    if [[ $message == *"my first script"* ]]; then
-        git commit -m "$message"
-        echo "Am gasit!"
-        break 2;
+    if [ -s $i ];then
+        message=$message$(cat $i)";"
     fi
 done
+
+if [[ $message == *"my first script"* ]]; then
+        #git commit -m "$message"
+        echo "$message"
+fi
 
 #*** 11 ***
 git push origin Mitu_Script1
@@ -46,3 +53,7 @@ for i in ./*gitMessage*
 do
     rm $i
 done
+}
+
+firstImplementation $1
+#secondImplementation(){}
