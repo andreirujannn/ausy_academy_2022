@@ -2,58 +2,55 @@
 
 
 read -p "New branch name : " Branch 
+#1-3
+   cd ~/Desktop/ausy_academy_2022/sandbox/Luiza
 
-cd ~/Desktop/ausy_academy_2022/sandbox/luiza
+#4-5
+  git switch -c "$Branch "
+ 
+#6
+  touch "$MY_NAME.txt"
 
-
-git switch -c "$Branch "
-
-touch "$MY_NAME.txt"
-
-for i in {0..10}
+#7
+for i in {0..9}
   do 
-
-
+#8      
      if [$i -eq 5 ];then
 
-         touch gitMessage5
+        echo "$MY_NAME:my first script" >>gitMessage5 
 
-        git commit -m "luiza_ivan:my first script"
      else
         touch gitMessage$i
     fi
-
+#bonus1-2
     if [ $i -eq 7 ]; then 
-        echo " $branch"  >>  gitMessage7 
+        echo " $Branch"  >>  gitMessage7 
 
     done
 
     git add "$MY_NAME.txt"
-      git add ~/Desktop/ausy_academy_2022/Luiza/Task1/script1.sh
+    git add ~/Desktop/ausy_academy_2022/Luiza/Task1/script1.sh
     git commit -m "first script"
 
          
 
-         for i in {0..10}
+         for i in {0..9}
 
          do
-           if [ -z gitMessage$i ]; then 
+           if [ -s gitMessage$i ]; then 
 
-               echo " this is an empty  file "
-
-               exit
+             newcommit="${newcommit}$(cat gitMessage$i);"
 
             fi
 
             done   
 
+git commit -m"$newcommit"
+git push origin $Branch
 
 
+    for i in {0..9}
 
-
-    for i in {0..10}
-
-    
       rm "gitMessage$i"
 
       done
