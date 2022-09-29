@@ -17,11 +17,9 @@ for i in {0..10}
      if [$i -eq 5 ];then
 
          touch gitMessage5
-       
-        echo "gitMessage5"
 
         git commit -m "luiza_ivan:my first script"
-        else
+     else
         touch gitMessage$i
     fi
 
@@ -55,8 +53,10 @@ for i in {0..10}
 
     for i in {0..10}
 
-      
-
+    
       rm "gitMessage$i"
 
       done
+
+
+     
