@@ -1,10 +1,5 @@
 # Ausy academy 2022
 
-## Udemy account
-cristian.vlad@ausy.com / Ausy2021? 
-
-https://ausygdp.udemy.com/organization/home/
-
 ## Agenda
 
 ### 1. Linux - 1 weeks
@@ -20,12 +15,15 @@ Udemy:
 The Git & Github Bootcamp: https://ausygdp.udemy.com/course/git-and-github-bootcamp/
 + Live training sessions and hands on
 
+Useful:
+https://github.com/gitalias/gitalias
 
 
 ### 3. Linux scripting - 1 Week
-  https://ausygdp.udemy.com/course/bash-shell-scripting-crash-course-for-beginners/learn/lecture/9581118 - 1 day
+  https://ausygdp.udemy.com/course/bash-shell-scripting-crash-course-for-beginners/learn/lecture/9581118 - 2 days
   
-  scripting task - 4 days
+  scripting task - 3 days  
+  [Task 1 - Linux scripting](Tasks/Task1_linux_scripting.md)
   
 
 ### 4. C++ training - 4 weeks
