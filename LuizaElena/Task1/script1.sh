@@ -1,59 +1,90 @@
 #! /bin/bash
+script1(){
+  
+Branch="$1"
 
-
-read -p "New branch name : " Branch 
 #1-3
-   cd ~/Desktop/ausy_academy_2022/sandbox/Luiza
+cd ~/Desktop/ausy_academy_2022/sandbox/Luiza
 
 #4-5
-  git switch -c "$Branch "
+git switch -c "$Branch "
  
 #6
-  touch "$MY_NAME.txt"
+touch "$MY_NAME.txt"
 
 #7
 for i in {0..9}
-  do 
+do 
 #8      
-     if [$i -eq 5 ];then
+  if [$i -eq 5 ];then
 
-        echo "$MY_NAME:my first script" >>gitMessage5 
+    echo "$MY_NAME:my first script" > gitMessage5 
 
-     else
+  else
         touch gitMessage$i
-    fi
+  fi
 #bonus1-2
-    if [ $i -eq 7 ]; then 
-        echo " $Branch"  >>  gitMessage7 
+  if [ $i -eq 7 ]; then 
+        echo " $Branch"  > gitMessage7 
+  fi
+done
 
-    done
+git add "$MY_NAME.txt"
+git add ~/Desktop/ausy_academy_2022/Luiza/Task1/script1.sh
+git commit -m "first script"
 
-    git add "$MY_NAME.txt"
-    git add ~/Desktop/ausy_academy_2022/Luiza/Task1/script1.sh
-    git commit -m "first script"
+        
+for i in {0..9}
+do  
+  if [ -s gitMessage$i ]; then 
 
-         
+      newcommit="${newcommit}$(cat gitMessage$i);"
 
-         for i in {0..9}
+  fi
 
-         do
-           if [ -s gitMessage$i ]; then 
-
-             newcommit="${newcommit}$(cat gitMessage$i);"
-
-            fi
-
-            done   
+done   
 
 git commit -m"$newcommit"
 git push origin $Branch
 
+for i in {0..9}
 
-    for i in {0..9}
+  rm "gitMessage$i"
 
-      rm "gitMessage$i"
+done
+}
 
-      done
+script2(){
+#bonus 2
+Branch="$1"
+
+cd ~/Desktop/ausy_academy_2022/sandbox/Luiza
+git switch -c "$Branch"
+touch "$MY_NAME.txt"
+touch gitMessage{0..9}
+echo "$MY_NAME:my first script" > "$(find *5)"
+echo "$Branch" > "$(find *7)"
+git add "$MY_NAME.txt"
+git add ~/Desktop/ausy_academy_2022/LuizaElena/Task1/script1.sh
+newcommit="$(grep gitMessage? | xargs cat)"
+git commit -m "$newcommit"
+rm gitMessage?
+}
+
+case "$2" in
+ "0")
+     script1 "$1"
+   ;;
+ "1")
+    script2 "$1"
+   ;;
+ 
+*)  
+echo "Error"
+;;
+    
+
+
 
 
      
