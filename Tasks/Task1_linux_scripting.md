@@ -28,3 +28,8 @@ Note: $MY_NAME is not hardcoded in the script, it has to be created manually fro
 # Bonus #2
 1. Write the same functionality without using for or if statements.
 2. Add command line argument to switch between the two implementations
+
+# Bonus #3 - Error handling
+1. Check exit code for each command, and exit early if it didn't succeed. 
+2. Exit code shall be different for each error case
+3. Echo the reason of early exit(e.g Cannot create new branch)
