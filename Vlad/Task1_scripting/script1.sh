@@ -1,4 +1,25 @@
 #! /bin/bash
+set -e
+
+# keep track of the last executed command
+trap 'last_command=$current_command; current_command=$BASH_COMMAND' DEBUG
+# echo an error message before exiting
+trap '
+    ERROR_CODE=$?
+
+    echo "\" ${last_command} \" command filed with exit code $ERROR_CODE."
+    echo ""
+
+case "$ERROR_CODE" in
+"1")
+    echo "Nothing to commit!"
+;;
+"128")
+    echo "Branch already exists!"
+;;
+esac
+' EXIT
+
 
 scriptV1(){
 
@@ -33,7 +54,8 @@ commitmessage="$(grep -l "." gitMessage* | xargs cat)"
 rm gitMessage{0..9}
 }
 
-echo "Starting script..."
+echo "Starting script..." 
+echo ""
 
 BRANCH_NAME="$1"
 cd ~/Desktop/ausy_academy_2022/sandbox/vvestemeanu
@@ -57,4 +79,5 @@ git add ~/Desktop/ausy_academy_2022/Vlad/Task1_scripting/script1.sh
 git commit -m "$commitmessage"
 git push origin $BRANCH_NAME
 
+echo ""
 echo "Done!"
