@@ -3,7 +3,6 @@
 #TO SWITCH BETWEEN THE IMPLEMENTATIONS USE "first" for first or "second" for second
     #eg: Task1.sh newBranchName first 
 
-firstImplementation(){
 #*** 1-3 ***
 repoPath="/home/projectx/Desktop/gitBasics/ausy_academy_2022"
 cd $repoPath
@@ -19,6 +18,7 @@ git switch $newBranchName
 #*** 6 ***
 touch "$MY_NAME.txt"
 
+firstImplementation(){
 #*** 7-8 ***
 for i in {0..9}
 do
@@ -57,21 +57,6 @@ done
 }
 
 secondImplementation(){
-#*** 1-3 ***
-repoPath="/home/projectx/Desktop/gitBasics/ausy_academy_2022"
-cd $repoPath
-cd "sandbox"
-cd "mmitu"
-
-#*** 4-5 ***
-# $1 = primul argument
-newBranchName=$1
-git branch $newBranchName
-git switch $newBranchName
-
-#*** 6 ***
-touch "$MY_NAME.txt"
-
 #*** 7-8 ***
 touch gitMessage{0..9}
 echo "$MY_NAME : my first script" > gitMessage5
