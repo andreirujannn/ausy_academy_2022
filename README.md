@@ -43,7 +43,10 @@ https://github.com/gitalias/gitalias
 #### Docs:
   - https://www.learncpp.com 
 
-### 5. Boost training - 2 weeks
+### 5. Cmake intro - 1 day
+https://ausygdp.udemy.com/course/master_cmake/learn/lecture/17991481#overview
+
+### 6. Boost training - 2 weeks
   - Memory management
   - Data Structures
   - Parallel Programming
@@ -51,7 +54,7 @@ https://github.com/gitalias/gitalias
   - Serialization 
   - Test 
 
-### 6. Scripting - 2 weeks
+### 7. Scripting - 2 weeks
   - python
   - regular expression
   - ruby(?)
