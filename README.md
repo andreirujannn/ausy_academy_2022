@@ -46,6 +46,10 @@ https://github.com/gitalias/gitalias
 ### 5. Cmake intro - 1 day
 https://ausygdp.udemy.com/course/master_cmake/learn/lecture/17991481#overview
 
+  Cmake task
+  [Task 1 - Cmake project](Tasks/Task1_Cmake.md)
+  
+  
 ### 6. Boost training - 2 weeks
   - Memory management
   - Data Structures
